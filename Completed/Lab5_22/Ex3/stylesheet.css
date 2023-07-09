@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #000;
+  font-family: Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* Layout */
+.client {
+  background-color: #f6f6f6;
+  margin: 30px auto;
+  padding: 40px;
+  width: 1110px;
+}
+.client h2 {
+  color: #333;
+  font-size: 34px;
+  margin-bottom: 99px;
+  position: relative;
+  text-align: center;
+}
+/* Line cho h2 */
+.client h2:after {
+  background-color: #627afe;
+  bottom: -5px;
+  content: "";
+  display: block;
+  left: 47%;
+  height: 4px;
+  width: 60px;
+  position: absolute;
+}
+.client .client-list li {
+  color: #7c7c7c;
+  float: left;
+  line-height: 1.35;
+  margin-bottom: 40px;
+  margin-right: 60px;
+  position: relative;
+  width: 330px;
+}
+.client .client-list li:nth-child(3n) {
+  margin-right: 0;
+}
+.client .client-list li .avatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.client .client-list li .avatar img {
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+}
+.client .client-list li .message {
+  padding-left: 80px;
+}
+.client .client-list li .message .detail {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.client .client-list li .message .name {
+  font-weight: 600;
+}

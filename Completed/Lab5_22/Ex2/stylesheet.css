@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #000;
+  font-family: Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* Layout */
+#footer {
+  background-color: #325c6a;
+  color: #fff;
+  line-height: 1.4;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+#footer .inner {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 1040px;
+}
+#footer .inner > div {
+  float: left;
+  margin-right: 50px;
+  width: 340px;
+}
+#footer .inner > div:last-child {
+  margin-right: 0;
+  width: 260px;
+}
+#footer .inner h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#footer .inner .info-link ul {
+  padding-left: 58px;
+}
+#footer .inner .info-link li {
+  position: relative;
+}
+#footer .inner .info-link li:after {
+  content: "â—";
+  display: block;
+  font-size: 16px;
+  position: absolute;
+  left: -17px;
+  top: 0;
+}
+#footer .inner .info-link li a:hover {
+  text-decoration: underline;
+}
+#footer .inner .follow-us ul {
+  text-align: right;
+}
+#footer .inner .follow-us li {
+  display: inline;
+  margin-right: 1px;
+}
+#footer .inner .follow-us li a {
+  display: inline-block;
+  height: 50px;
+  line-height: 54px;
+  opacity: 1;
+  text-align: center;
+  transition: 0.3s all;
+  width: 50px;
+}
+.facebook a {
+  background-color: #3498bd;
+}
+.google-plus a {
+  background-color: #e74c3c;
+}
+.twitter a {
+  background-color: #2c3e50;
+}
+.linkedin a {
+  background-color: #3498bd;
+}
+#footer .copyright {
+  border-top: 1px solid #4b707c;
+  font-size: 15px;
+  padding: 38px 0 35px;
+  text-align: center;
+}
+#footer .inner .follow-us li a:hover {
+  background-color: #fff;
+  color: #666;
+}

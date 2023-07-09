@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Model trong CSS </title>
+        <meta charset="utf-8">
+        <style>
+            .box {
+                width: 60px;
+                height: 60px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* float: left; */
+            }
+            .b1{
+                background-color: #333;
+                margin-left:20px;
+            }
+
+            .b2{
+                background-color:orange;
+                margin-left:50px;
+            }
+            
+            .b3{
+                background-color:firebrick;
+                padding:10px 12px 8px 6px;
+                /* border-width:10px;
+                border-style: solid;
+                border-color: #333; */
+                /* shorter: */
+                border: 10px solid #333;
+                margin-top:20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box b1">Box 1</div>
+        <div class="box b2">Box 2</div>
+        <div class="box b3">Box 3</div>
+    </body>
+</html>

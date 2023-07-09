@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Tahoma;
+            margin-right: auto;
+            margin-left: auto;
+            width: 500px;
+        }
+    </style>
+</head>
+    </head>
+    <body>
+        <table border="3" >
+            <tr>
+                <th style="text-align: center; background-color: #CC99FF">
+                    Name
+                </th>
+                <th style="text-align: center; background-color: #CC99FF">
+                    Value
+                </th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" size="37px" >
+                </td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td><input type="radio" name="sex=" value="Male" > Male <br>
+                    <input type="radio" name="sex=" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Eye color</td>
+                <td> 
+                    <select name="eye">
+                        <option selected="1" value="black">green</option>
+                        <option value="2" >black</option>
+                        <option value="3" >blue</option>
+                        <option value="4">brown</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply </td>
+                <td>
+                    <input type="checkbox" >Over 6 feet tall <br>
+                    <input type="checkbox"> Over 200 pounds
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Describe your athletic ability:
+                <br>
+                <input type="text" size="60px" style="height: 100px">
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Enter my information</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

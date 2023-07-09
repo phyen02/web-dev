@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccffff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topnav {
+    text-align-last: left;
+    height: 30px;
+    background-color: #ffffcc;
+}
+
+#navbar li{
+    display: inline-block;
+}
+#navbar li a{
+    color: blue;
+    line-height: 30px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+h1{
+    line-height: 100px;
+}
+p{
+    line-height: 50px;
+}
+table{
+    background-color: #ff6600;
+    border-spacing: 15px;
+}
+

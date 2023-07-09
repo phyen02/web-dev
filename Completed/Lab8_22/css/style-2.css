@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+#header {
+    background-color: #000;
+    height: 60px;
+}
+#logo {
+    margin-left: 150px;
+    width: 100px;
+    height: 50px;
+}
+#logo2 {
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+}
+#nav{
+	float: right;
+	margin-right: 200px;
+}
+#nav ul {
+	list-style-type: none;
+	float: left;
+	overflow: hidden;
+}
+#nav ul li{
+	float: left;
+}
+#nav li a{
+	display: block;
+    text-align: center;
+    padding: 20px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+#nav ul li a:hover,#nav ul li a.active{
+	color: #229118;
+	background-color: white;
+    font-weight: bold;
+}
+form{
+    margin-top: 50px;
+    padding-left: 400px;
+}
+fieldset{
+    width: 600px;
+    height: 300px;
+    border-color: white;
+}
+.info{
+    text-align: right;
+    height: 35px;
+}
+input{
+    margin-left: 30px;
+    border-radius: 4px;
+}
+input[type=text]{
+    width: 250px;
+    height: 18px;
+}
+textarea{
+    margin-left: 30px;
+    border: 2px solid black;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    margin-right: 200px;
+    background-color: white;
+    font-weight: bold;
+}

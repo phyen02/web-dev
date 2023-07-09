@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #9a9a9a;
+  font-family: Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px 0 #ddd inset;
+  /* Cần cho full-width */
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 20px;
+  width: 100%;
+}
+input[type="text"],
+input[type="email"] {
+  height: 40px;
+}
+textarea {
+  font-family: Helvetica,sans-serif;
+  padding-top: 10px;
+}
+button {
+  background-color: #0cb8b6;
+  border: 1px solid #0cb8b6;
+  color: #fff;
+  cursor: pointer;
+  min-width: 135px;
+  padding: 11px 10px;
+  text-align: center;
+  transition: 0.3s background-color;
+}
+button:hover {
+  background-color: #18ccca;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* Layout */
+.contact-us {
+  margin: 30px auto;
+  width: 1140px;
+}
+.contact-us .info {
+  float: left;
+  width: 380px;
+}
+.contact-us h2 {
+  color: #222;
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 42px;
+  position: relative;
+}
+/* Line cho h2 */
+.contact-us h2:after {
+  background-color: #ffb737;
+  bottom: -5px;
+  content: "";
+  display: block;
+  left: 0;
+  height: 3px;
+  width: 60px;
+  position: absolute;
+}
+.contact-us h3 {
+  color: #222;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.contact-us .contact-list li {
+  line-height: 1.4;
+  margin-bottom: 36px;
+  padding-left: 48px;
+  position: relative;
+}
+.contact-us .contact-list li i {
+  font-size: 27px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 34px;
+}
+.contact-us .contact-list li a {
+  color: #9a9a9a;
+  text-decoration: none;
+}
+.contact-us .contact-form {
+  float: right;
+  width: 750px;
+}
+.contact-us .contact-form p {
+  margin-bottom: 15px;
+}
+.contact-us .contact-form .submit-btn {
+  margin-top: -10px;
+}
+.contact-us .contact-form textarea {
+  height: 114px;
+}

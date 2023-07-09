@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style-2.css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>Contacr form</title>
+        <link rel="shorcut icon" href="images/logo.png">
+    </head>
+    <body>
+        <div id="header">
+            <div id="nav">
+                <ul>
+                    <li><a href="trang_chu.html">Trang chủ</a></li>
+                        <li><a href="san_pham_1.html">Điện Thoại</a></li>
+                        <li><a href="sam_pham_2.html">Laptop</a></li>
+                        <li><a href="trang_chu.html">Ti Vi</a></li>
+                        <li><a href="trang_chu.html">Máy Lạnh</a></li>
+                        <li><a href="gioi_thieu.html" class="active">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+            <table>
+                <tr>
+                    <td class="info"><label for="name">Name: </label></td>
+                        <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td class="info"><label for="email">Email: </label></td>
+                        <td><input type="text" name="email" id="email"></td>
+                        <br>
+                </tr>    
+                <tr>       
+                    <td class="info"><label for="subject">Subject: </label></td>
+                    <td><input type="text" name="subject"></td><br>
+                </tr>
+                <tr>
+                    <td class="info"><label for="mess">Message: </label></td>
+                    <td colspan="2"><textarea rows="5" cols="55"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="info" colspan="2"><input type="submit" value="send" name="submit" id="submit" onclick="return validate()"></td>
+                </tr>
+            </table>     
+            </fieldset>
+        </form>
+    </body>
+</html>

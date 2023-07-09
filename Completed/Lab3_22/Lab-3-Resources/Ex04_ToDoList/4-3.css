@@ -1,0 +1,22 @@
+.table{
+margin-left: auto;
+Margin-right:auto;
+width: 700px;
+height: 600px;
+box-shadow: 2px 2px 2px 8px #AAA;
+}
+table{
+    border-collapse:collapse;
+    background-color: #FFFF66;
+    width: 700px;
+height: 600px;
+    text-align: left;
+    
+    font-size: 30px;
+}
+b{
+    font-size: 60px;
+}
+p{
+    text-align: center;
+}

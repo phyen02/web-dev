@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    font-family:Tahoma;
+    font-size: 16px;
+    /* width: 1000px; */
+    margin: 0px auto;
+    background-color: #355764;
+}
+
+header h1{
+    text-align: center;
+    color: #fff;
+    font-family: forte;
+    font-size: 40px;
+}
+
+header h3{
+    text-align: right;
+    color: #fff;
+    font-family: forte;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+main{
+    background-color:#203e4b ;
+    padding: 10px;
+}
+main article h2{
+    text-align: center;
+    font-family:forte;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+main article figure{
+    text-align: right;
+}
+main article p{
+    text-align: left;
+    color: #8dbb5d;
+}
+footer{
+    text-align: center;
+}

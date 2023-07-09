@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "ListMusic";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bảng xếp hạng tháng 8</h2>
+
+<table class="table table-condensed" border="0">
+    <tbody>
+        @for(int i = 0; i < ViewBag.listSong.Count; i++)
+        {
+            string songName = ViewBag.listSong[i].Name;
+            string songAuthor = ViewBag.listSong[i].Author;
+            <tr>
+                <td>@Html.ActionLink($"{songName} {songAuthor}", "DetailsMusic")</td>
+                <td>@Html.ActionLink("Tải về", "Download")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

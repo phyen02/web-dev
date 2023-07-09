@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 500px;
+            margin: auto;
+        }
+        .ps{
+            /* text-indent: 95px; */
+            text-align: right;
+        }
+        input{
+            background-color: #fee3ac;
+            border-color: #FE2EF7;
+        }
+        textarea{
+            background-color: #fee3ac;
+            border-color: #FE2EF7;
+        }
+        select{
+            background-color: #fee3ac;
+            border-color: #FE2EF7;
+            color: #FE2EF7;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset style="border: 1px solid #FE2EF7">
+        <table>
+            <legend style="border: 1px solid #FE2EF7; background-color: #fab12b;">This is my form</legend>
+            <tr>
+                <td class="ps">Email: </td>
+                <td><input type="text"></td>
+                <!-- <br> -->
+            </tr>
+            <tr>
+                <td class="ps">Password: </td>
+                <td><input type="password" ></td>
+                <!-- <br> <br> -->
+            </tr>
+            <tr>
+                <td class="ps">Confirm Password: </td>
+                <td><input type="password" ></td>
+                <!-- <br> <br> -->
+            </tr>
+            <tr>
+                <td class="ps">Upload Your Picture:</td>
+                <td><input type="text"> <button type="button" class="btn btn-primary btn-sm" style="border-color: #58ACFA;">Browser...</button></td>
+                <!-- <br> <br> -->
+            </tr>
+            <tr>
+                <td class="ps">Gender: </td>
+                <td> <input type="radio" name="sex=" value="male" > Male <input type="radio" name="sex=" value="female" > Female</td>
+            </tr>
+            <tr>
+                <td class="ps">Select Country: </td>
+                <td>
+                    <select name="united" style="width: 190px; height: 22px">
+                    <option selected="1" value="">United Kingdom</option>
+                    <option value="2">England</option>
+                    <option value="3">Japan</option>
+                    <option value="4">Korea</option>
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <td class="ps">Hobby:</td>
+                <td><input type="checkbox" name="check" value="cricket">Cricket <input type="checkbox" name="check" value="fooball"> Football</td>
+            </tr>
+            <tr>
+                <td class="ps">Address: </td>
+                <td>
+                    <textarea name="address" id="ps" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" ></td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>

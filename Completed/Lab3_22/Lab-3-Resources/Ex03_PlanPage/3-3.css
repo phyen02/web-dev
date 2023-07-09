@@ -1,0 +1,26 @@
+
+    article{
+        background-color: #444444;
+        color: white;
+        text-align-last: center;
+        width: 33.33%;
+        float: left;
+        height: 600px !important;
+        vertical-align: middle;
+    }
+    li{
+        float:none;
+        list-style: none;
+        font-size: 45px;
+    }
+    .price{
+        color: rgb(91, 196, 231);
+        font-size: 50px;
+    }
+    button{
+        background-color: rgb(91, 196, 231);
+        height: 50px !important;
+    }
+    button:hover{
+        background-color: gray;
+    }

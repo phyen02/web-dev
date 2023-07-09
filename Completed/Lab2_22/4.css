@@ -1,0 +1,55 @@
+#khung {
+  overflow: scroll;
+  height: 400px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 0;
+  border: 10px;
+}
+.day1 .y,
+.day1 .x {
+  background-color: blue;
+}
+.day2 .y,
+.day2 .x {
+  background-color: pink;
+}
+.day3 .y,
+.day3 .x {
+  background-color: yellowgreen;
+}
+#khung > .y {
+  padding: 0;
+  color: black;
+  text-align: center;
+  justify-content: right;
+}
+.x {
+  text-align-last: right;
+}
+.day1 > .z,
+.day2 > .z,
+.day3 > .z {
+  border-color: violet;
+}
+#chuthich {
+  height: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 20%;
+  border: 10px;
+  background-color: gray;
+}
+#chuthich > p {
+  background-color: white;
+  height: 10px;
+  width: 50px;
+  margin-top: 0;
+  margin-left: 0;
+  word-wrap: break-word;
+  font-size: 9px;
+}
