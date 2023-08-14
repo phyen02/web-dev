@@ -1,0 +1,50 @@
+.box-linear {
+    background: linear-gradient(to right, #7A7FBA, #11C37C);
+    color:white;
+    padding: 6rem;
+    margin: 4rem;
+    font-size: 40px;
+}
+
+.box-radial {
+    background: radial-gradient(red, yellow, green);
+    color:white;
+    padding: 6rem;
+    margin: 4rem;
+    font-size: 40px;
+}
+
+/* rgb function */
+.box-rgb {
+    width: 100%;
+    height: 120px;
+    background: rgb(190, 124, 157);
+}
+
+.box-rgba {
+    width: 100%;
+    height: 120px;
+    background: rgba(190, 124, 157, 0.3);
+}
+
+/* calc function */
+/* có thể xài các toán tử + - * / */
+.box-calc {
+    width: calc(120px + 50px);
+    height: 120px;
+    background: rgb(81, 47, 161);
+}
+
+.box-attr {
+    width: 240px;
+    height: 120px;
+    background: rgb(150, 110, 30);
+}
+
+a::after {
+    content: " (" attr(href) ")";
+}
+
+.box-attr::after {
+    content: attr(data-title);
+}
