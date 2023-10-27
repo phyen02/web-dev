@@ -35,13 +35,24 @@
         .origin-bg{
             width: 100%;
             height: 70vh;
-            background-image: url(https://www.advisor.ca/wp-content/uploads/sites/5/2018/08/800x600_markets_bubble_45228759_123RFStockPhoto.jpg);
+            background-image:
+                url(https://www.advisor.ca/wp-content/uploads/sites/5/2018/08/800x600_markets_bubble_45228759_123RFStockPhoto.jpg),
+                url(https://i.pinimg.com/564x/48/b3/cf/48b3cfeb82939e7451c52c7c2a77515a.jpg);
             background-repeat: no-repeat;
             background-size: 100%;
             border: 20px dashed #ccc;
             padding: 20px;
-            /* box-sizing: content-box; */
-            
+            box-sizing: border-box;
+            background-origin: border-box;
+        }
+
+        .position-bg{
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://i.pinimg.com/564x/a7/c3/cc/a7c3cc99b6c0b68e8cff7e3329c49748.jpg);
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center center;
         }
     </style>
 </head>
@@ -50,5 +61,6 @@
     <div class="header"></div>
     <div class="repeat-bg"></div>
     <div class="origin-bg"></div>
+    <div class="position-bg"></div>
 </body>
 </html>

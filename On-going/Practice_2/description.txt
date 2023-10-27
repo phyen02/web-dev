@@ -1,0 +1,3 @@
+1. Tạo 2 trang HTML ( bieumau.html, thanhcong.html)
+Xây dựng 1 Form điền thông tin (họ tên, tuổi, ...) tại trang bieumau.html (chủ đề tự chọn), sử dụng method GET, sau khi điền xong các thông tin sẽ chuyển tới trang thanhcong.html
+2. Tạo trang HTML thuvien.html, sử dụng thuộc tính bảng xây dựng list chủ đề (tối đa 5 chủ đề, giả sử bóng đá, học tập, IT, ...), khi click vào mỗi chủ đề tạo ra 1 trang mới hiển thị các hình ảnh liên quan chủ đề đó ( tối đa 3 hình ảnh mỗi chủ đề)
